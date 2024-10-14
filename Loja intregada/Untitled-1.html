@@ -1,0 +1,156 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<!-- Font Awesome para ícones -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&amp;display=swap" rel="stylesheet" />
+<style>
+    body.pagina-pagina h1.titulo {
+        display: none;
+    }
+
+    .breadcrumbs {
+        display: none;
+    }
+    
+    body {
+        font-family: 'Poetsen One', sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: background-image 0.5s ease-in-out;
+    }
+
+    /* Alterar imagem de fundo dependendo do tamanho da tela */
+    @media (max-width: 767px) {
+        body {
+            background-image: url('c:\Users\LucasBittencourt\OneDrive - Cabral & Sousa Ltda\Design sem nome.jpg'); /* Imagem para mobile */
+        }
+    }
+    
+    @media (min-width: 768px) {
+        body {
+            background-image: url('c:\Users\LucasBittencourt\OneDrive - Cabral & Sousa Ltda\Design sem nome.jpg'); /* Imagem para desktop */
+        }
+    }
+
+    .container1 {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+        
+        
+    }
+
+    .logo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .Categorias {
+        text-decoration: none;
+        color: #A61C28;
+        display: block;
+        margin: 10px 0;
+        font-size: 1em;
+        transition: color 0.3s;
+    }
+
+    .Categorias:hover {
+        color: #555;
+    }
+
+    .buttons {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        background-color: #A61C28;
+        color: #f5f5f5;
+        text-decoration: none;
+        border-radius: 5px;
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+        transition: background-color 0.3s, transform 0.2s;
+        font-size: 1.1em;
+    }
+
+    .button i {
+        margin-right: 10px;
+        color: #fff;
+    }
+
+    .button:hover {
+        background-color: #871822;
+        transform: scale(1.05);
+    }
+
+    iframe {
+        border: 0;
+        width: 100%;
+        max-width: 600px;
+        height: 300px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (min-width: 768px) {
+        .container1 {
+            padding: 40px;
+        }
+
+        .button {
+            font-size: 1.2em;
+            max-width: 400px;
+        }
+    }
+</style>
+
+<div class="container1">
+    <a href="https://www.cabralfesta.com.br/dia-das-criancas">
+        <img alt="Logo da Empresa" class="logo" src="https://i.postimg.cc/zBNkt48q/Novo-Projeto-4.png" />
+    </a>
+    <p>
+        <a class="Categorias" href="#">Bebidas | Confeitaria | Decoração | Bomboniere | Artigos Temáticos | Localização</a>
+    </p>
+
+    <div class="buttons">
+        <a class="button" href="https://www.cabralfesta.com.br/">
+            <i class="fas fa-shopping-cart"></i>Compre no Site
+        </a>
+        <a class="button" href="https://api.whatsapp.com/send?phone=557799983672&amp;text=">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+        </a>
+        <a class="button" href="https://www.google.com/maps/dir//Av.+R%C3%A9gis+Pach%C3%AAco,+67+-+Centro,+Vit%C3%B3ria+da+Conquista+-+BA,+45000-755/@-14.851694,-40.9250852,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x7463bb18978ff87:0x3910f9e242223004!2m2!1d-40.8426834!2d-14.8517087?entry=ttu&amp;g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+            <i class="fas fa-map-marker-alt"></i>Visite a Loja
+        </a>
+        <a class="button" href="https://www.tiktok.com/@lojadefestacabral?_t=8lvoT4ld81l&amp;_r=1">
+            <i class="fab fa-tiktok"></i>TikTok
+        </a>
+        <a class="button" href="https://youtube.com/@lojadefestacabralesousa440?si=j4D--gbP4Yj1XHp9">
+            <i class="fab fa-youtube"></i>YouTube
+        </a>
+        <a class="button" href="https://www.instagram.com/cabralesousa.lojadefesta/"> <i class="fab fa-instagram"></i> Instagram </a>
+    </div>
+
+    <iframe allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.420824895309!2d-40.83965848468936!3d-14.861589190585927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7469cde421645db%3A0x828de4e9c524839d!2sAv.%20R%C3%A9gis%20Pacheco%2C%2067%20-%20Centro%2C%20Vit%C3%B3ria%20da%20Conquista%20-%20BA%2C%2045000-210!5e0!3m2!1spt-BR!2sbr!4v1696788658381!5m2!1spt-BR!2sbr"></iframe>
+</div>
